@@ -1,0 +1,588 @@
+
+
+/* ****************** Custom Properities ****************** */
+:root{
+    --first-color:rgb(217,0,98);
+    --first-alpha-color:rgb(217,0,98, 0.75);
+    --second-color:rgb(20,25,45);
+    --second-alpha-color:rgb(20,25,45,0.75);
+    --third-color:rgb(80,20,100);
+    --third-alpha-color:rgb(80,20,100,0.75);
+    
+    
+    --link-color:rgb(80,158,227);
+    --link-alpha-color: rgb(80,158,277,0.75);
+    
+    
+    --bg-color:rgb(245,245,245);
+    --bg-alpha-color:rgb(245,245,245,0.75);
+    
+    
+    
+    
+    
+    }
+    body{
+        font-family: "Raleway", sans-serif;
+        background-image: radial-gradient(circle, 
+    #04132C, 
+    #060f1c);
+    
+    }
+    .tarjetaDeTrabajosRealizados{
+        width: 18rem;
+        top: -18%;
+        max-width: 100%;
+        overflow: hidden;
+    }
+    .iconosframwork{
+        width: 43%;
+        height: 0px;
+        position: relative;
+        left: 57%;
+        top: 16%;
+    }
+
+
+    .portafolio{
+        width: 100vw;
+        height: 100vh;
+        
+    }
+    .texto-quien-soy{
+        position: relative;
+        left: 100px;
+        /* margin-left: 65px; */
+        /* top: -223px; */
+        margin-right: 19%;
+        bottom: 35%;
+    }
+    .bottonDeCurriculum{
+        margin-left: 0.2rem!important;
+    }
+
+    .botonDeRedes{
+        margin-right: 92%;
+        
+        position: relative;
+        background-color: #003F7A;
+        /* border-bottom-left-radius: 30px; */
+        border-radius: 12px;
+        width: 7%;
+        top: 12%;
+        right: 9%;
+    }
+ 
+    .circulo-perfil{
+        width: 70px;
+        height: 70px;
+        border-radius: 100%;
+        left: 70%;
+        position: relative;
+        top: 12px;
+    }
+    .circulo-perfil-nombre{
+        left: 60%;
+        position: relative;
+   
+        top: 51px;
+        margin: 0;
+        width: 31%
+    }
+    .foto-de-perfil{
+        max-width: 224%;
+        height: auto;
+        right: 60%;
+        position: relative;
+        top: -4px;
+    }
+    .contenedorDeFramworks{
+        top: -82%;
+        position: relative;
+    }
+    .imgFramworks{
+        max-width: 224%;
+        height: auto;
+        right: 0%;
+        position: relative;
+    }
+ 
+    .html1{
+      
+        transition: transform 0.3s;
+    }
+    .html1:hover{
+        transform: scale(1.1);
+        /* background-color: red;  */
+       
+       content: url('imagen-junior_1.png'); 
+    }
+    .projectosA{
+        text-decoration: none;
+    }    
+    .TrabajosRealizados{
+        top: 20%;
+        position: relative;
+    }
+   
+    
+ 
+    
+    
+
+   
+    
+    .bg-dark{
+        background-color: var(--second-color) !important;
+    }
+   
+    
+
+    
+    
+    /* ****************** My  Styles ****************** */
+    
+    .bg-gradient-blue-green{
+ 
+    background-image: radial-gradient(circle, 
+    #04132C, 
+    #060f1c);
+    }
+
+    @media (min-width: 280px){
+        .botonDeRedes {
+            margin-right: 92%;
+            position: relative;
+            background-color: #003F7A;
+        
+            border-radius: 12px;
+            width: 26%;
+            top: 25%;
+            right: 4%;
+        }
+    
+        .texto-quien-soy {
+            position: relative;
+            left: 64px;
+          
+            top: -58px;
+            margin-right: 19%;
+            bottom: 35%;
+        }
+        .contenedorDeFramworks {
+            top: -3%;
+            position: relative;
+        }
+        .tarjetaDeTrabajosRealizados {
+            width: 18rem;
+            top: 100%;
+            max-width: 100%;
+            overflow: hidden;
+        }
+        .foto-de-perfil {
+            max-width: 200%;
+            height: auto;
+            right: 164%;
+            position: relative;
+            top: -4px;
+        }
+        .circulo-perfil-nombre {
+            left: 15%;
+            position: relative;
+            top: 51px;
+            margin: 0;
+            width: 79%;
+        }
+        .iconosframwork {
+            width: 84%;
+            height: 0px;
+            position: relative;
+            left: 11%;
+          
+        }
+    }
+
+
+
+    @media (min-width: 375px) {
+        .botonDeRedes {
+            margin-right: 92%;
+            position: relative;
+            background-color: #003F7A;
+         
+            border-radius: 12px;
+            width: 20%;
+            top: 12%;
+            right: 4%;
+        }
+    
+        .texto-quien-soy {
+            position: relative;
+            left: 64px;
+          
+            top: -56px;
+            margin-right: 19%;
+            bottom: 35%;
+        }
+        .contenedorDeFramworks {
+            top: -3%;
+            position: relative;
+        }
+        .tarjetaDeTrabajosRealizados {
+            width: 18rem;
+            top: 100%;
+            max-width: 100%;
+            overflow: hidden;
+        }
+        .foto-de-perfil {
+            max-width: 224%;
+            height: auto;
+            right: 195%;
+            position: relative;
+            top: -4px;
+        }
+        .circulo-perfil-nombre {
+            left: 15%;
+            position: relative;
+            top: 51px;
+            margin: 0;
+            width: 79%;
+        }
+        .iconosframwork {
+            width: 84%;
+            height: 0px;
+            position: relative;
+            left: 11%;
+   
+        }
+     }
+     @media (min-width: 360px) {
+        .botonDeRedes {
+            margin-right: 92%;
+            position: relative;
+            background-color: #003F7A;
+         
+            border-radius: 12px;
+            width: 20%;
+            top: 12%;
+            right: 4%;
+        }
+    
+        .texto-quien-soy {
+            position: relative;
+            left: 68px;
+         
+            top: -56px;
+            margin-right: 19%;
+            bottom: 35%;
+        }
+        .contenedorDeFramworks {
+            top: -3%;
+            position: relative;
+        }
+        .tarjetaDeTrabajosRealizados {
+            width: 18rem;
+            top: 100%;
+            max-width: 100%;
+            overflow: hidden;
+        }
+     
+        .circulo-perfil-nombre {
+            left: 15%;
+            position: relative;
+            top: 51px;
+            margin: 0;
+            width: 79%;
+        }
+        .iconosframwork {
+            width: 84%;
+            height: 0px;
+            position: relative;
+            left: 11%;
+            /* top: 8%; */
+        }
+        .foto-de-perfil {
+            max-width: 224%;
+            height: auto;
+            right: 211%;
+            position: relative;
+            top: -4px;
+        }
+     }
+     @media(min-width:412px){
+        .texto-quien-soy {
+            position: relative;
+            left: 68px;
+          
+            top: -56px;
+            margin-right: 19%;
+            bottom: 35%;
+            width: 77%;
+        }
+     }
+     @media(min-width:414px){
+        .foto-de-perfil {
+            max-width: 224%;
+            height: auto;
+            right: 231%;
+            position: relative;
+            top: -4px;
+        }
+     }
+    @media (min-width: 540px) {
+        .botonDeRedes {
+            margin-right: 92%;
+            position: relative;
+            background-color: #003F7A;
+          
+            border-radius: 12px;
+            width: 14%;
+            top: 22%;
+            right: 3%;
+        }
+    
+    
+     }
+    
+
+    @media (min-width: 768px) { 
+        .botonDeRedes {
+            margin-right: 92%;
+            position: relative;
+            background-color: #003F7A;
+            
+            border-radius: 12px;
+            width: 12%;
+            top: 17%;
+            right: 6%;
+        }
+        .tarjetaDeTrabajosRealizados {
+            width: 18rem;
+            top: 118%;
+            max-width: 100%;
+            overflow: hidden;
+        }
+        .circulo-perfil-nombre {
+            left: 32%;
+            position: relative;
+            top: 51px;
+            margin: 0;
+            width: 79%;
+        }
+        .foto-de-perfil {
+            max-width: 224%;
+            height: auto;
+            right: 281%;
+            position: relative;
+            top: -4px;
+        }
+        
+    
+     }
+     @media (min-width: 820px) { 
+        .botonDeRedes {
+            margin-right: 92%;
+            position: relative;
+            background-color: #003F7A;
+         
+            border-radius: 12px;
+            width: 14%;
+            top: 17%;
+            right: 10%;
+        }
+        .foto-de-perfil {
+            max-width: 224%;
+            height: auto;
+            right: 289%;
+            position: relative;
+            top: -4px;
+        }
+        .circulo-perfil-nombre {
+            left: 31%;
+            position: relative;
+            top: 51px;
+            margin: 0;
+            width: 79%;
+        }
+    
+     }
+    @media(min-width:912px){
+        .botonDeRedes {
+            margin-right: 92%;
+            position: relative;
+            background-color: #003F7A;
+   
+            border-radius: 12px;
+            width: 14%;
+            top: 17%;
+            right: 16%;
+        }
+        .texto-quien-soy {
+            position: relative;
+            left: 68px;
+      
+            top: -106px;
+            margin-right: 19%;
+            bottom: 35%;
+        }
+        .tarjetaDeTrabajosRealizados {
+            width: 18rem;
+            top: 84%;
+            max-width: 100%;
+            overflow: hidden;
+        }
+    }
+  
+    @media (min-width: 992px) { 
+    
+    .nav-item:hover{
+        background-color: transparent !important;
+    
+        }
+    }
+    @media(min-width:1024px){
+        .tarjetaDeTrabajosRealizados {
+            width: 18rem;
+            top: 52px;
+            max-width: 100%;
+            overflow: hidden;
+            left: 25%;
+        }
+        .foto-de-perfil {
+            max-width: 224%;
+            height: auto;
+            right: 413%;
+            position: relative;
+            top: -4px;
+        }
+        .botonDeRedes {
+            margin-right: 92%;
+            position: relative;
+            background-color: #003F7A;
+
+            border-radius: 12px;
+            width: 9%;
+            top: 17%;
+            right: 5%;
+        }
+        .iconosframwork {
+            width: 64%;
+            height: 0px;
+            position: relative;
+            left: 8%;
+            /* top: 8%; */
+        }
+        .texto-quien-soy {
+            position: relative;
+            left: 123px;
+         
+            top: -81px;
+            margin-right: 19%;
+            bottom: 35%;
+            width: 174%;
+        }
+    }
+   
+    @media (min-width: 1200px) {
+        
+        }
+    @media(min-width:1310px){
+        .tarjetaDeTrabajosRealizados{
+            width: 18rem;
+            top: -18%;
+            max-width: 100%;
+            overflow: hidden;
+        }
+        .iconosframwork{
+            width: 43%;
+            height: 0px;
+            position: relative;
+            left: 57%;
+            top: 16%;
+        }
+    
+    
+        .portafolio{
+            width: 100vw;
+            height: 100vh;
+            
+        }
+        .texto-quien-soy{
+            position: relative;
+            left: 100px;
+            top: -106px;
+            margin-right: 19%;
+            bottom: 35%;
+            width: 79%;
+        }
+        .bottonDeCurriculum{
+            margin-left: 0.2rem!important;
+        }
+    
+        .botonDeRedes{
+            margin-right: 92%;
+        
+            position: relative;
+            background-color: #003F7A;
+          
+            border-radius: 12px;
+            width: 7%;
+            top: 12%;
+            right: 9%;
+        }
+     
+        .circulo-perfil{
+            width: 70px;
+            height: 70px;
+            border-radius: 100%;
+            left: 70%;
+            position: relative;
+            top: 12px;
+        }
+        .circulo-perfil-nombre{
+            left: 60%;
+            position: relative;
+          
+            top: 51px;
+            margin: 0;
+            width: 31%
+        }
+        .foto-de-perfil{
+            max-width: 224%;
+            height: auto;
+            right: 60%;
+            position: relative;
+            top: -4px;
+        }
+        .contenedorDeFramworks{
+            top: -82%;
+            position: relative;
+        }
+        .imgFramworks{
+            max-width: 224%;
+            height: auto;
+            right: 0%;
+            position: relative;
+        }
+        .TrabajosRealizados{
+            top: 20%;
+            position: relative;
+        }
+        
+       
+    }
+    
+    
+     
+    
+    /* // XX-Large devices (larger desktops, 1400px and up) */
+    @media (min-width: 1400px) { 
+       
+        
+        }
+    
+    
+        
+    
+    
+    
